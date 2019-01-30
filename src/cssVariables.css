@@ -1,0 +1,7 @@
+div {
+  --foo: 2px;
+  padding: var(--foo);
+}
+span {
+  padding: 3px !important;
+}
