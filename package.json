@@ -9,10 +9,12 @@
     "@babel/core": "^7.2.2",
     "@babel/plugin-proposal-class-properties": "^7.3.0",
     "@babel/preset-react": "^7.0.0",
+    "stylelint": "^9.10.1",
     "typescript": "^3.2.4"
   },
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "stylelint": "stylelint \"src/**/*.css\""
   },
   "repository": {
     "type": "git",
@@ -27,9 +29,14 @@
   "homepage": "https://github.com/slikts/code-examples#readme",
   "stylelint": {
     "rules": {
-      "selector-pseudo-class-no-unknown": [true, {
-        "ignorePseudoClasses": ["export"]
-      }]
+      "selector-pseudo-class-no-unknown": [
+        true,
+        {
+          "ignorePseudoClasses": [
+            "export"
+          ]
+        }
+      ]
     }
   }
 }

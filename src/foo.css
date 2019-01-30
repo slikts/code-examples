@@ -8,6 +8,10 @@ span {
   foo: "foo";
 }
 
+:unknown {
+  foo: "foo";
+}
+
 /* empty block */
 div {
  
