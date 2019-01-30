@@ -3,3 +3,8 @@ export const bar = (baz) => {
 
   console.log(100) // unreachable
 }
+
+
+if (a == b) {
+  console.log(1);
+}
