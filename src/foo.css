@@ -1,4 +1,21 @@
 span {
   display: block;
   display: block;
+  color: bla;
+}
+
+:export {
+  foo: "foo";
+}
+
+/* empty block */
+div {
+ 
+}
+
+td {
+  color: #f06;
+}
+td {
+  color: #f60;
 }
