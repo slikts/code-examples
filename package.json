@@ -24,5 +24,12 @@
   "bugs": {
     "url": "https://github.com/slikts/code-examples/issues"
   },
-  "homepage": "https://github.com/slikts/code-examples#readme"
+  "homepage": "https://github.com/slikts/code-examples#readme",
+  "stylelint": {
+    "rules": {
+      "selector-pseudo-class-no-unknown": [true, {
+        "ignorePseudoClasses": ["export"]
+      }]
+    }
+  }
 }
